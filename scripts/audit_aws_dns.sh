@@ -6,7 +6,6 @@
 # Refer to https://www.cloudconformity.com/conformity-rules/Route53/sender-policy-framework-record-present.html
 # Refer to https://www.cloudconformity.com/conformity-rules/Route53/route-53-domain-transfer-lock.html
 #.
-
   RED='\033[0;31m'
   NC='\033[0m'
   GREEN='\033[0;32m'
