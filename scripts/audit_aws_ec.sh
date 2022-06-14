@@ -22,4 +22,5 @@ for  aws_region in ap-south-1 eu-west-2 eu-west-1 ap-northeast-2 ap-northeast-1 
       printf "default,$account,$aws_region,null,PASS,Scored,null,ELASTIC_CACHE_AUDIT,ElastiCache $cache is Multi-AZ enabled\n"
     fi
   done
+sbdskjbsf
 done
