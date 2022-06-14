@@ -20,3 +20,4 @@ if  certs:
             print ("default,%s,us-east-1,null,WARNING,Scored,null,CERT_AUDIT,certificate %s has expired") % (account,cert)
         else:
             print ("default,%s,us-east-1,null,PASS,Scored,null,CERT_AUDIT,certificate %s not expired") % (account,cert)
+dfdffd
