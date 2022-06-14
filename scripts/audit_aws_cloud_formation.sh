@@ -7,7 +7,7 @@
   RED='\033[0;31m'
   NC='\033[0m'
   GREEN='\033[0;32m'
-  BOLD='\033[1m'
+  BOLD='\033[1m
   # Check Cloud Formation stacks are using SNS
   #printf "\n\n"
   #printf "${BOLD}##############\n"
