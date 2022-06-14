@@ -11,7 +11,7 @@
   BOLD='\033[1m'
   #printf "\n\n"
   aws_region=`aws configure get region`
-  #printf "${BOLD}############\n"
+  #print "${BOLD}############\n"
   #printf "AWS SSH AUDIT\n"
   #printf "############${NC}\n\n"
   # Check for SSH keys
