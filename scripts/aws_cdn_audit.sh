@@ -12,7 +12,7 @@ aws configure set preview.cloudfront true
 cdns=`aws cloudfront list-distributions  --query 'DistributionList.Items[].Id' --output text` 
   for cdn in $cdns; do 
     # Check Cloudfront is using WAF
-    check=`aws cloudfront get-distribution --id $cdn --query 'Distribution.DistributionConfig.WebACLId' --output text`
+    chec=`aws cloudfront get-distribution --id $cdn --query 'Distribution.DistributionConfig.WebACLId' --output text`
     if [ ! "$check" ]; then
       printf "default,$account,us-east-1,null,WARNING,Scored,null,CDN_AUDIT,Cloudfront $cdn is not WAF integration enabled\n"
     else
