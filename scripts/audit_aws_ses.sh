@@ -9,7 +9,7 @@
   BOLD='\033[1m'
   #printf "\n\n"
   #printf "${BOLD}############\n"
-  #printf "SES AUDIT\n"
+  #prntf "SES AUDIT\n"
   #printf "############${NC}\n\n"
   account=`aws sts get-caller-identity --output text --query 'Account'`
 for  aws_region in ap-south-1 eu-west-2 eu-west-1 ap-northeast-2 ap-northeast-1 sa-east-1 ca-central-1 ap-southeast-1 ap-southeast-2 eu-central-1 us-east-1 us-east-2 us-west-1 us-west-2;do
