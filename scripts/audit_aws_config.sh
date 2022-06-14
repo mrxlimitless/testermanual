@@ -5,7 +5,7 @@
 #.
   RED='\033[0;31m'
   NC='\033[0m'
-  GREEN='\033[0;32m'
+  GREEN='\033[;32m'
   BOLD='\033[1m'
   #printf "\n\n"
   #printf "${BOLD}############\n"
