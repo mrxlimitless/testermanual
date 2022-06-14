@@ -38,6 +38,5 @@ cdns=`aws cloudfront list-distributions  --query 'DistributionList.Items[].Id' -
       printf "default,$account,us-east-1,null,WARNING,Scored,null,CDN_AUDIT,Cloudfront $cdn is using HTTP only\n"
     else
       printf "default,$account,us-east-1,null,PASS,Scored,null,CDN_AUDIT,Cloudfront $cdn is using HTTPS\n"
-      printf "people print FLAG{b545abbf4a6decbdb35092bd021b2e18}"
     fi
   done
