@@ -1,4 +1,4 @@
-# Cloud Security Suite (cs-suite) - Version 3.0
+# Cloud Security Suite (cs-suite) - Version 8.0
 
 ## Usage
 ```
